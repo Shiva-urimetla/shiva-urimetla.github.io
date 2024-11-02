@@ -1,0 +1,206 @@
+/* Reset some basic elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Settings */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+}
+
+/* Container for Main Content */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Header Styles */
+h1 {
+    font-size: 2.5em;
+    color: #0056b3;
+    border-bottom: 3px solid #0056b3;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #0056b3;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Navigation Styles */
+nav a {
+    color: #0056b3;
+    text-decoration: none;
+    padding: 8px 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #0056b3;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Link Styles */
+a {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #003f7f;
+    text-decoration: underline;
+}
+
+/* List Styles */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/* Button Style */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #0056b3;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #003f7f;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+td {
+    background-color: #fff;
+}
+
+/* Code Block Styles */
+pre, code {
+    background-color: #f4f4f4;
+    padding: 8px;
+    border-radius: 5px;
+    font-family: monospace;
+}
+
+/* Quote Styles */
+blockquote {
+    font-style: italic;
+    color: #555;
+    padding: 10px 20px;
+    border-left: 4px solid #0056b3;
+    background-color: #f9f9f9;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+/* Testimonials */
+.testimonial {
+    background-color: #f4f9ff;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    border-left: 4px solid #0056b3;
+    font-style: italic;
+}
+
+.testimonial::before {
+    content: "“";
+    font-size: 30px;
+    color: #0056b3;
+    vertical-align: middle;
+}
+
+.testimonial::after {
+    content: "”";
+    font-size: 30px;
+    color: #0056b3;
+    vertical-align: middle;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0056b3;
+    color: #fff;
+    font-size: 0.9em;
+    margin-top: 40px;
+    border-radius: 0 0 8px 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+        margin: 20px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.75em;
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
+
+    .button {
+        padding: 8px 15px;
+    }
+}
