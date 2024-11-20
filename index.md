@@ -79,7 +79,22 @@ Ever since I was introduced to my first computer, I knew that technology would b
 
 ## 📚 Vision and Goals
 
-My overarching goal is to leverage my skills in **cloud computing** and **cybersecurity** to develop solutions that ensure both performance and security at scale. I envision a future where technology empowers people while protecting their data and privacy. This aligns with my aspiration to move into advanced roles in **cloud architecture**, **machine learning security**, and **cyber-defense strategies**.
+<div class="vision-container">
+  <p class="vision-text">
+    My overarching goal is to leverage my skills in <strong>cloud computing</strong> and <strong>cybersecurity</strong> to develop solutions that ensure both performance and security at scale.
+  </p>
+
+  <p class="vision-text">
+    I envision a future where technology <strong>empowers people</strong> while safeguarding their data and privacy. This aligns with my aspiration to take on advanced roles in:
+  </p>
+
+  <ul class="vision-list">
+    <li>🌩️ <strong>Cloud Architecture</strong>: Building scalable, reliable cloud solutions.</li>
+    <li>🔐 <strong>Machine Learning Security</strong>: Securing AI/ML systems from vulnerabilities.</li>
+    <li>🛡️ <strong>Cyber-Defense Strategies</strong>: Creating proactive measures to combat digital threats.</li>
+  </ul>
+</div>
+
 
 ---
 
