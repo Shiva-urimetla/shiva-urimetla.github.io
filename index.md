@@ -3,6 +3,14 @@ layout: default
 title: Home
 ---
 
+<div class="hero-banner">
+  <h1>Welcome to <span class="highlight">Shiva Urimetla's</span> Tech Journey</h1>
+  <p>Exploring the world of <strong>Cloud Computing</strong>, <strong>Database Management</strong>, and <strong>Cybersecurity</strong>.</p>
+  <a href="#about" class="hero-button">Learn More About Me</a>
+</div>
+
+---
+
 # Welcome to Shiva Urimetla's Tech Journey
 
 Hello! I'm **Shiva Urimetla** - an enthusiastic tech professional with a drive to innovate and explore. My journey in the world of **Cloud Computing**, **Database Management**, and **Cybersecurity** has been both challenging and rewarding. This blog is my digital space where I share my experiences, insights, and projects with a focus on building a secure and scalable future in tech.
@@ -11,7 +19,7 @@ Hello! I'm **Shiva Urimetla** - an enthusiastic tech professional with a drive t
 
 ## ✨ Personal Story
 
-Ever since I was introduced to my first computer, I knew that technology would be a significant part of my life. From tinkering with hardware to mastering SQL queries, my journey has been a path of constant learning. My passion lies in finding innovative solutions that can make technology safer, faster, and more accessible. Today, as I delve deeper into **AWS Gen AI** and **cybersecurity**, I’m driven by a vision to create impactful solutions that can shape the future.
+Ever since I was introduced to my first computer, I knew that technology would be a significant part of my life. From tinkering with hardware to mastering SQL queries, my journey has been a path of constant learning. My passion lies in finding innovative solutions that make technology safer, faster, and more accessible. Today, as I delve deeper into **AWS Gen AI** and **cybersecurity**, I’m driven by a vision to create impactful solutions that shape the future.
 
 ---
 
@@ -56,25 +64,23 @@ My overarching goal is to leverage my skills in **cloud computing** and **cybers
 
 ## 🏆 Featured Projects
 
-### 1. **Predictive Analytics with AWS SageMaker**
-   - **Description**: A project to segment customers based on purchasing patterns using machine learning.
-   - **Technology Stack**: AWS SageMaker, Python, SQL
-   - **GitHub**: [View Repository](https://github.com/Shiva-urimetla/ml-deployment)
-
-### 2. **Database Optimization Toolkit**
-   - **Description**: Toolkit to enhance SQL query performance for Oracle databases.
-   - **Technology Stack**: Oracle, MySQL, SQL
-   - **GitHub**: [View Repository](https://github.com/Shiva-urimetla/sql-optimization)
-
-### 3. **Small Business Network Security Toolkit**
-   - **Description**: A toolkit to identify vulnerabilities and safeguard small business networks.
-   - **Technology Stack**: Python, Shell scripting, Docker
-   - **GitHub**: [View Repository](https://github.com/Shiva-urimetla/network-security-toolkit)
-
-### 4. **GitHub Pages Blog Automation**
-   - **Description**: Created a Jekyll-based blog to showcase my work with auto-updating posts.
-   - **Technology Stack**: GitHub Pages, Jekyll, Markdown, CSS
-   - **GitHub**: [View Repository](https://github.com/Shiva-urimetla/shiva-urimetla.github.io)
+<div class="projects">
+  <div class="project-card">
+    <h3>Predictive Analytics with AWS SageMaker</h3>
+    <p>A machine learning project to segment customers based on purchasing patterns.</p>
+    <a href="https://github.com/Shiva-urimetla/ml-deployment" class="project-button">View on GitHub</a>
+  </div>
+  <div class="project-card">
+    <h3>Database Optimization Toolkit</h3>
+    <p>Enhanced SQL performance for Oracle databases with custom tools.</p>
+    <a href="https://github.com/Shiva-urimetla/sql-optimization" class="project-button">View on GitHub</a>
+  </div>
+  <div class="project-card">
+    <h3>Network Security Toolkit</h3>
+    <p>Identified vulnerabilities and safeguarded small business networks.</p>
+    <a href="https://github.com/Shiva-urimetla/network-security-toolkit" class="project-button">View on GitHub</a>
+  </div>
+</div>
 
 ---
 
@@ -92,8 +98,6 @@ My overarching goal is to leverage my skills in **cloud computing** and **cybers
 ---
 
 ## 📈 Latest Blog Posts
-
-Here are my latest articles and insights:
 
 {% for post in site.posts %}
   - [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%B %d, %Y" }}
@@ -120,9 +124,9 @@ Here are my latest articles and insights:
 
 I’m always open to connecting with like-minded professionals and tech enthusiasts. Let’s collaborate or just have a chat about the future of tech.
 
-- **LinkedIn**: [Shiva Urimetla](https://www.linkedin.com/in/shiva-urimetla)
-- **GitHub**: [@Shiva-urimetla](https://github.com/Shiva-urimetla)
-- **Email**: [shiva.urimetla@gmail.com](mailto:shiva@example.com)
+- 🌐 [LinkedIn](https://www.linkedin.com/in/shiva-urimetla)
+- 🛠 [GitHub](https://github.com/Shiva-urimetla)
+- 📧 [Email Me](mailto:shiva.urimetla@gmail.com)
 
 ---
 
@@ -131,6 +135,4 @@ I’m always open to connecting with like-minded professionals and tech enthusia
 Thank you for visiting my blog! If you enjoyed my content or found my projects useful, please consider starring my repositories on GitHub or reaching out to discuss potential collaborations. Your support inspires me to keep learning, building, and sharing.
 
 ---
-
-*Hosted on GitHub Pages — Theme by [orderedlist](https://github.com/orderedlist)*
-
+* - Shiva Urimetla
