@@ -143,40 +143,65 @@ title: Home
 
 ## 📈 Latest Blog Posts
 
-{% for post in site.posts %}
-  - [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%B %d, %Y" }}
-{% endfor %}
+<div class="blog-posts">
+  {% for post in site.posts %}
+    <div class="post-item">
+      <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+      <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
+    </div>
+  {% endfor %}
+</div>
 
 ---
 
 ## 🌐 Certifications and Achievements
 
-- **AWS Certified Solutions Architect – Associate** (in progress)
-- **Oracle Database Administrator Certified Professional**
-- **Course Completion**: Cybersecurity Fundamentals, Machine Learning with Python (Coursera)
+<div class="achievements">
+  <div class="achievement-item">
+    <h4>📜 AWS Certified Solutions Architect – Associate</h4>
+    <p>(in progress)</p>
+  </div>
+  <div class="achievement-item">
+    <h4>📚 Oracle Database Administrator Certified Professional</h4>
+  </div>
+  <div class="achievement-item">
+    <h4>💡 Course Completion: Cybersecurity Fundamentals, Machine Learning with Python (Coursera)</h4>
+  </div>
+</div>
 
 ---
 
 ## 🎖 Awards & Recognition
 
-- **Database Performance Excellence Award** - Recognized for outstanding database optimization work in 2022.
-- **Best Innovator Award** - Honored for creating an efficient toolkit for cybersecurity threat analysis in 2023.
+<div class="awards">
+  <div class="award-item">
+    <h4>🏆 Database Performance Excellence Award</h4>
+    <p>Recognized for outstanding database optimization work in 2022.</p>
+  </div>
+  <div class="award-item">
+    <h4>🏅 Best Innovator Award</h4>
+    <p>Honored for creating an efficient toolkit for cybersecurity threat analysis in 2023.</p>
+  </div>
+</div>
 
 ---
 
 ## 🔗 Connect with Me
 
-I’m always open to connecting with like-minded professionals and tech enthusiasts. Let’s collaborate or just have a chat about the future of tech.
-
-- 🌐 [LinkedIn](https://www.linkedin.com/in/shiva-urimetla)
-- 🛠 [GitHub](https://github.com/Shiva-urimetla)
-- 📧 [Email Me](mailto:shiva.urimetla@gmail.com)
+<div class="connect">
+  <p>I’m always open to connecting with like-minded professionals and tech enthusiasts. Let’s collaborate or just have a chat about the future of tech.</p>
+  <ul class="social-links">
+    <li>🌐 <a href="https://www.linkedin.com/in/shiva-urimetla">LinkedIn</a></li>
+    <li>🛠 <a href="https://github.com/Shiva-urimetla">GitHub</a></li>
+    <li>📧 <a href="mailto:shiva.urimetla@gmail.com">Email Me</a></li>
+  </ul>
+</div>
 
 ---
 
 ## 👏 Acknowledgments and Call to Action
 
-Thank you for visiting my blog! If you enjoyed my content or found my projects useful, please consider starring my repositories on GitHub or reaching out to discuss potential collaborations. Your support inspires me to keep learning, building, and sharing.
+<div class="acknowledgments">
+  <p>Thank you for visiting my blog! If you enjoyed my content or found my projects useful, please consider starring my repositories on GitHub or reaching out to discuss potential collaborations. Your support inspires me to keep learning, building, and sharing.</p>
+</div>
 
----
-* - Shiva Urimetla
