@@ -13,13 +13,21 @@ title: Home
 
 # Welcome to Shiva Urimetla's Tech Journey
 
-Hello! I'm **Shiva Urimetla** - an enthusiastic tech professional with a drive to innovate and explore. My journey in the world of **Cloud Computing**, **Database Management**, and **Cybersecurity** has been both challenging and rewarding. This blog is my digital space where I share my experiences, insights, and projects with a focus on building a secure and scalable future in tech.
+<div class="welcome-container">
+  <p class="welcome-text">
+    Hello! I'm <strong>Shiva Urimetla</strong> — an enthusiastic tech professional with a drive to innovate and explore. My journey in the world of <strong>Cloud Computing</strong>, <strong>Database Management</strong>, and <strong>Cybersecurity</strong> has been both challenging and rewarding. This blog is my digital space where I share my experiences, insights, and projects with a focus on building a secure and scalable future in tech.
+  </p>
+</div>
 
 ---
 
 ## ✨ Personal Story
 
-Ever since I was introduced to my first computer, I knew that technology would be a significant part of my life. From tinkering with hardware to mastering SQL queries, my journey has been a path of constant learning. My passion lies in finding innovative solutions that make technology safer, faster, and more accessible. Today, as I delve deeper into **AWS Gen AI** and **cybersecurity**, I’m driven by a vision to create impactful solutions that shape the future.
+<div class="story-container">
+  <p class="story-text">
+    Ever since I was introduced to my first computer, I knew that technology would be a significant part of my life. From tinkering with hardware to mastering SQL queries, my journey has been a path of constant learning. My passion lies in finding innovative solutions that make technology safer, faster, and more accessible. Today, as I delve deeper into <strong>AWS Gen AI</strong> and <strong>cybersecurity</strong>, I’m driven by a vision to create impactful solutions that shape the future.
+  </p>
+</div>
 
 ---
 
