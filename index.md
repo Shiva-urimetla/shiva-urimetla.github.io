@@ -37,22 +37,43 @@ Ever since I was introduced to my first computer, I knew that technology would b
 
 ## 🚀 Expertise and Technical Proficiency
 
-### Cloud & AI
-- **AWS**: EC2, S3, SageMaker, Bedrock, Lambda
-- **Machine Learning**: Hands-on experience in deploying ML models using SageMaker, with a focus on predictive analytics.
+<div class="expertise-grid">
 
-### Databases
-- **Oracle DBA**: Skilled in database administration, query optimization, and performance tuning.
-- **SQL**: Proficient in complex SQL queries, PL/SQL programming, and MySQL management.
+  <div class="expertise-item">
+    <h3>🌩️ Cloud & AI</h3>
+    <ul>
+      <li><strong>AWS</strong>: EC2, S3, SageMaker, Bedrock, Lambda</li>
+      <li><strong>Machine Learning</strong>: Hands-on deployment of ML models with SageMaker for predictive analytics.</li>
+    </ul>
+  </div>
 
-### Cybersecurity
-- **Network Security**: Knowledgeable in identifying and mitigating network threats.
-- **Threat Analysis**: Conducted security audits and implemented protective measures in enterprise settings.
+  <div class="expertise-item">
+    <h3>🛢️ Databases</h3>
+    <ul>
+      <li><strong>Oracle DBA</strong>: Skilled in database administration, query optimization, and performance tuning.</li>
+      <li><strong>SQL</strong>: Proficient in complex SQL queries, PL/SQL programming, and MySQL management.</li>
+    </ul>
+  </div>
 
-### Development Tools
-- **Programming**: Python, Shell scripting, SQL
-- **Version Control & Containers**: Git, Docker
-- **Operating Systems**: Linux, Windows
+  <div class="expertise-item">
+    <h3>🔒 Cybersecurity</h3>
+    <ul>
+      <li><strong>Network Security</strong>: Knowledgeable in identifying and mitigating network threats.</li>
+      <li><strong>Threat Analysis</strong>: Conducted security audits and implemented protective measures.</li>
+    </ul>
+  </div>
+
+  <div class="expertise-item">
+    <h3>💻 Development Tools</h3>
+    <ul>
+      <li><strong>Programming</strong>: Python, Shell scripting, SQL</li>
+      <li><strong>Version Control & Containers</strong>: Git, Docker</li>
+      <li><strong>Operating Systems</strong>: Linux, Windows</li>
+    </ul>
+  </div>
+
+</div>
+
 
 ---
 
