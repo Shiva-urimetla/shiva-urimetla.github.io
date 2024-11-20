@@ -343,3 +343,97 @@ h2 {
     border-bottom: 3px solid #2575fc;
     padding-bottom: 5px;
 }
+/* General Layout */
+.blog-posts, .achievements, .awards, .connect, .acknowledgments {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 30px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.blog-posts:hover, .achievements:hover, .awards:hover, .connect:hover, .acknowledgments:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Blog Post Styling */
+.blog-posts .post-item {
+    margin-bottom: 15px;
+}
+
+.blog-posts h4 {
+    font-size: 1.2em;
+    color: #2575fc;
+    margin-bottom: 5px;
+}
+
+.blog-posts .post-date {
+    color: #7f8c8d;
+    font-size: 0.9em;
+}
+
+/* Achievements Styling */
+.achievements .achievement-item {
+    margin-bottom: 20px;
+}
+
+.achievements h4 {
+    font-size: 1.2em;
+    color: #34495e;
+}
+
+.achievements p {
+    color: #7f8c8d;
+    font-size: 1em;
+}
+
+/* Awards Styling */
+.awards .award-item {
+    margin-bottom: 20px;
+}
+
+.awards h4 {
+    font-size: 1.2em;
+    color: #34495e;
+}
+
+.awards p {
+    color: #7f8c8d;
+    font-size: 1em;
+}
+
+/* Connect with Me Section */
+.connect p {
+    font-size: 1.1em;
+    color: #34495e;
+    margin-bottom: 15px;
+}
+
+.social-links {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.social-links li {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    font-size: 1.1em;
+    color: #2575fc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    color: #6a11cb;
+}
+
+/* Acknowledgments Section */
+.acknowledgments p {
+    font-size: 1.1em;
+    color: #34495e;
+    text-align: center;
+}
