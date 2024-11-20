@@ -414,3 +414,233 @@ footer {
         padding: 10px 20px;
     }
 }
+/* Reset some basic elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Settings */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(135deg, #f3ec78, #af4261);
+    margin: 0;
+    padding: 20px;
+    overflow-x: hidden;
+    transition: background 0.5s;
+}
+
+/* Container for Main Content */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    animation: fadeIn 1.2s ease-in-out;
+    border: 1px solid #e0e0e0;
+    backdrop-filter: blur(10px);
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Header Styles */
+h1 {
+    font-size: 3em;
+    color: #af4261;
+    border-bottom: 5px solid #f3ec78;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #6a0572;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Navigation Styles */
+nav a {
+    color: #af4261;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.4s;
+}
+
+nav a:hover {
+    background: #af4261;
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(175, 66, 97, 0.5);
+}
+
+/* Link Styles */
+a {
+    color: #af4261;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #6a0572;
+    text-decoration: underline;
+}
+
+/* List Styles */
+ul {
+    list-style-type: disc;
+    padding-left: 25px;
+    margin-top: 10px;
+}
+
+ul li {
+    margin: 12px 0;
+}
+
+/* Button Style */
+.button {
+    display: inline-block;
+    padding: 12px 30px;
+    color: #fff;
+    background: linear-gradient(90deg, #f3ec78, #af4261);
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: all 0.3s;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(175, 66, 97, 0.4);
+}
+
+.button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(175, 66, 97, 0.6);
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    border: 1px solid #ddd;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+td {
+    background-color: #fff;
+}
+
+/* Code Block Styles */
+pre, code {
+    background-color: #f0f4f8;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: 'Courier New', monospace;
+    color: #37474f;
+}
+
+/* Quote Styles */
+blockquote {
+    font-style: italic;
+    color: #6a0572;
+    padding: 15px 25px;
+    border-left: 5px solid #af4261;
+    background-color: #fff0f6;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+/* Testimonials */
+.testimonial {
+    background-color: #ffe4e6;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 20px 0;
+    border-left: 6px solid #af4261;
+    font-style: italic;
+    color: #444;
+    position: relative;
+    overflow: hidden;
+}
+
+.testimonial::before {
+    content: "“";
+    font-size: 40px;
+    color: #af4261;
+    position: absolute;
+    top: -10px;
+    left: 15px;
+}
+
+.testimonial::after {
+    content: "”";
+    font-size: 40px;
+    color: #af4261;
+    position: absolute;
+    bottom: -10px;
+    right: 15px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #af4261;
+    color: #fff;
+    font-size: 0.9em;
+    margin-top: 40px;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    .button {
+        padding: 10px 20px;
+    }
+}
