@@ -122,7 +122,7 @@ I’m always open to connecting with like-minded professionals and tech enthusia
 
 - **LinkedIn**: [Shiva Urimetla](https://www.linkedin.com/in/shiva-urimetla)
 - **GitHub**: [@Shiva-urimetla](https://github.com/Shiva-urimetla)
-- **Email**: [shiva@example.com](mailto:shiva@example.com)
+- **Email**: [shiva.urimetla@gmail.com](mailto:shiva@example.com)
 
 ---
 
