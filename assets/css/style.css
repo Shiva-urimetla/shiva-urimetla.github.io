@@ -5,35 +5,35 @@
     box-sizing: border-box;
 }
 
-/* Body and Font */
+/* Body and Typography */
 body {
-    font-family: 'Poppins', sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background: linear-gradient(135deg, #f3ec78, #af4261);
+    font-family: 'Roboto', sans-serif;
+    color: #2c3e50;
+    background: linear-gradient(to bottom, #f9f9f9, #e8ecf0);
+    line-height: 1.8;
     padding: 20px;
-    overflow-x: hidden;
 }
 
-/* Hero Banner */
+/* Hero Section */
 .hero-banner {
-    background: linear-gradient(135deg, #f3ec78, #af4261);
-    color: white;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
     text-align: center;
     padding: 60px 20px;
     border-radius: 12px;
     margin-bottom: 40px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .hero-banner h1 {
     font-size: 3em;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 .hero-banner .highlight {
-    color: #ffe57f;
+    color: #ffd700;
 }
 
 .hero-banner p {
@@ -44,7 +44,7 @@ body {
 .hero-banner .hero-button {
     padding: 12px 30px;
     color: white;
-    background: #af4261;
+    background: #2575fc;
     border: none;
     border-radius: 25px;
     text-decoration: none;
@@ -54,9 +54,17 @@ body {
 }
 
 .hero-banner .hero-button:hover {
-    background: #f3ec78;
-    color: #af4261;
+    background: #6a11cb;
     transform: scale(1.1);
+}
+
+/* Section Titles */
+h2 {
+    color: #34495e;
+    margin: 30px 0 20px;
+    font-size: 2em;
+    border-bottom: 2px solid #2575fc;
+    display: inline-block;
 }
 
 /* Tables */
@@ -64,24 +72,34 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 table th, table td {
     padding: 15px;
     text-align: left;
-    border: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
 }
 
 table th {
-    background-color: #f5f5f5;
-    color: #333;
+    background-color: #2575fc;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9em;
 }
 
 table td {
-    background-color: white;
+    color: #555;
 }
 
-/* Projects Section */
+table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Project Cards */
 .projects {
     display: flex;
     flex-wrap: wrap;
@@ -96,37 +114,9 @@ table td {
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    flex: 1 1 calc(30% - 20px);
+    flex: 1 1 calc(33% - 20px);
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.project-card h3 {
-    font-size: 1.5em;
-    color: #af4261;
-    margin-bottom: 15px;
-}
-
-.project-card p {
-    font-size: 1em;
-    margin-bottom: 20px;
-    color: #555;
-}
-
-.project-card .project-button {
-    padding: 10px 20px;
-    color: white;
-    background: #af4261;
-    border-radius: 25px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background 0.3s, transform 0.3s;
-}
-
-.project-card .project-button:hover {
-    background: #f3ec78;
-    color: #af4261;
-    transform: scale(1.05);
 }
 
 .project-card:hover {
@@ -134,23 +124,49 @@ table td {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
-/* Testimonials */
+.project-card h3 {
+    font-size: 1.5em;
+    color: #2575fc;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    font-size: 1em;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+}
+
+.project-card .project-button {
+    padding: 10px 20px;
+    color: white;
+    background: #2575fc;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.project-card .project-button:hover {
+    background: #6a11cb;
+    transform: scale(1.05);
+}
+
+/* Blockquotes */
 blockquote {
     font-style: italic;
-    color: #555;
+    color: #34495e;
     padding: 15px 25px;
-    border-left: 5px solid #af4261;
-    background: #fff0f6;
+    border-left: 4px solid #2575fc;
+    background: #f4f8fa;
     margin: 20px 0;
     border-radius: 8px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer */
 footer {
     text-align: center;
     padding: 20px;
-    background: #af4261;
+    background: #6a11cb;
     color: white;
     font-size: 0.9em;
     border-radius: 0 0 12px 12px;
@@ -165,7 +181,6 @@ footer {
 
     .projects {
         flex-direction: column;
-        gap: 15px;
     }
 
     .project-card {
