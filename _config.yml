@@ -1,8 +1,47 @@
-title: "Shiva Urimetla"
+title: "Shiva Urimetla Portfolio"
 description: "AWS & Cloud Enthusiast | SQL & Cybersecurity Aficionado"
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-include-css
+  - jekyll-seo-tag    # Adds SEO metadata
+  - jekyll-feed       # Enables RSS feed for blog posts
+  - jekyll-paginate   # Enables pagination for posts
+  - jekyll-sitemap    # Generates a sitemap for better search engine visibility
+
+paginate: 5           # Number of posts per page
 
 include_css:
   - assets/css/style.css
+
+author:
+  name: "Shiva Urimetla"
+  email: "shiva.urimetla@gmail.com"
+  github: "https://github.com/Shiva-urimetla"
+  linkedin: "https://www.linkedin.com/in/shiva-urimetla"
+
+social_links:         # Optional social media links
+  - name: GitHub
+    url: "https://github.com/Shiva-urimetla"
+  - name: LinkedIn
+    url: "https://www.linkedin.com/in/shiva-urimetla"
+  - name: Email
+    url: "mailto:shiva.urimetla@gmail.com"
+
+defaults:
+  - scope:
+      path: ""        # Applies to all files
+    values:
+      layout: "default"
+      permalink: "/:categories/:title/"
+
+sass:
+  sass_dir: _sass     # Directory for SASS/SCSS files if you use them
+
+sitemap:              # Sitemap plugin configuration
+  exclude:
+    - /assets         # Excludes the assets folder
+    - /README.md
+  include: 
+    - /               # Ensures the homepage is indexed
+
+google_analytics: UA-XXXXXXXXX-X  # Replace with your Google Analytics ID
