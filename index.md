@@ -128,6 +128,27 @@ title: Home
 
 ---
 
+<div class="project-card">
+  <h3>CareOps – AI-Powered Hospital Communication</h3>
+  <p>Reduced physician documentation time by 50% using multi-agent AI and NLP; improved patient communication transparency.</p>
+  https://github.com/Shiva-urimetla/CareOpsView on GitHub</a>
+</div>
+
+<div class="project-card">
+  <h3>CapGeniee – AI-Powered Education Platform</h3>
+  <p>Built a mobile-first, gamified learning platform with AI chatbot for real-time assistance.</p>
+  <a href="https://github.com/Shtla/CapGenieeView on GitHub</a>
+</div>
+
+<div class="project-card">
+  <h3>EV Lifecycle Management with GenAI & AWS</h3>
+  <p>Automated compliance and forecasting for EV battery end-of-life using GenAI and AWS services.</p>
+  https://github.com/Shiva-urimetla/EV-LifecycleView on GitHub</a>
+</div>
+
+
+---
+
 ## 💬 Testimonials
 
 > **"Shiva has a knack for solving complex database issues with ease. His attention to detail and commitment to performance optimization have significantly improved our database systems."**  
@@ -196,6 +217,8 @@ title: Home
     <li>📧 <a href="mailto:shiva.urimetla@gmail.com">Email Me</a></li>
   </ul>
 </div>
+
+/assets/ShivaSaiUrimetla_Resume.pdfDownload My Resume</a>
 
 ---
 
