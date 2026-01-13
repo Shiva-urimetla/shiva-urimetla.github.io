@@ -1,6 +1,6 @@
 title: "Shiva Urimetla Portfolio"
 description: "AWS & Cloud Enthusiast | SQL & Cybersecurity Aficionado"
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
 plugins:
   - jekyll-include-css
   - jekyll-seo-tag    # Adds SEO metadata
